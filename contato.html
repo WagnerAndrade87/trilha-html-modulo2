@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template - Utilizar como modelo</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    .rows{
+      margin: 5px;
+    }
+    label {
+      width: 115px;
+      text-align: right;
+      display: inline-block;
+      padding-right: 5px
+    }
+    fieldset {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <!-- Aqui vai o seu menu -->
+      <ul>
+        <li><a href="paginaPrincipal.html">Inicio</a></li>
+        <li><a href="sobreClinica.html">Sobre a Clinica</a></li>
+        <li><a href="horarioAtendimento.html">Horário de Atendimento</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="header">
+        <img title="cabecalhoContato" src="midias/cabecalhoContato.png" width="100%">
+        <!-- Aqui vai o seu header -->
+    
+      </div>
+
+
+      <div class="content">
+        <!-- Aqui vai o seu conteúdo -->
+        <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45pt" height="45pt" viewBox="0 0 45 45" version="1.1">
+          <g id="surface1">
+            <path style="stroke: none; fill-rule: nonzero; fill: #ff6c00; fill-opacity: 1;" d="M 22.5 0 C 13.511719 0 6.203125 7.3125 6.203125 16.296875 C 6.203125 27.449219 20.789062 43.820312 21.40625 44.511719 C 21.992188 45.164062 23.007812 45.160156 23.59375 44.511719 C 24.210938 43.820312 38.796875 27.449219 38.796875 16.296875 C 38.796875 7.3125 31.484375 0 22.5 0 Z M 22.5 24.496094 C 17.980469 24.496094 14.300781 20.820312 14.300781 16.296875 C 14.300781 11.777344 17.980469 8.097656 22.5 8.097656 C 27.019531 8.097656 30.699219 11.777344 30.699219 16.296875 C 30.699219 20.820312 27.019531 24.496094 22.5 24.496094 Z M 22.5 24.496094 "></path>
+          </g>
+        </svg>
+        <h3>Dados para contato</h3>
+        <p> 
+          Rua Nova, 11 Centro
+          <br>
+          Pedra do Indaiá - MG
+          <br>
+          CEP: 35.565-000
+          <br>
+          Telefone: 37 3344-1260
+          <br>
+          <center><iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d233.9433553455596!2d-45.20898472677072!3d-20.254948985400695!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1704294126318!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </center>
+        </p>
+        <br>
+
+        <h5><center>Preencha os dados abaixo para entrar em contato com a equipe da Clinica Omar Ferreira</center></h5>        
+        <form>
+          <div class="rows">
+            <label>Nome Completo:</label><input type="text" name="nome">
+            <label>Cidade:</label><input type="text" name="cidade">
+            <label>Estado:</label><input type="text" name="Estado">
+          </div>
+          <div class="rows">
+            <label>E-mail:</label><input type="email" name="email">
+            <label>Telefone:</label><input type="tel" name="telefone">
+          </div>
+          <div class="rows">
+            <label>Assunto:</label><input type="text" name="assunto">
+          </div>
+          <div class="rows">
+           <label>Mensagem:</label><textarea name="mensagem" cols="50" rols="5"></textarea>
+          </div>
+          <div class="rows">
+            <label></label>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </div>
+        </form>
+      </div>
+    
+      <div class="footer">
+        <div class="mycontainer">
+            <div>
+              <center>
+                <font face="arial" size="3px" color="black">
+                  <strong>Prefeitura Municipal de Pedra do Indaiá</strong>
+                  <br>
+                  Av. 1º de Março, 891, Centro
+                  <br>
+                  Telefone: (37) 3344-1112
+                  <a href="https://pedradoindaia.mg.gov.br/" target="_blank">https://pedradoindaia.mg.gov.br</a>
+                  <a href="https://www.instagram.com/prefeituradepedradoindaia/" target="_blank">@prefeituradepedradoindaia</a>
+                </font>
+              </center>
+            </div>
+            <div>
+              <center>
+                <font face="arial" size="3px" color="black">
+                  <strong>Secretária Municipal de Saúde</strong>
+                  <br>
+                  Rua Pará, 30, Centro
+                  <br>
+                  Atendimento: 7h às 16h
+                  <br>
+                  Telefoen: (37) 3344-1144                          
+                </font>
+              </center>
+            </div>
+            <div>
+              <center>
+                <font face="arial" size="3px" color="black">
+                  <strong>ESF Dr. Omar Ferreira Costa</strong>
+                  <br>
+                  Rua Nova, 11, Centro
+                  <br>
+                  Atendimento: 7h às 16h
+                  <br>
+                  Telefoen: (37) 3344-1144                          
+                </font>
+              </center>
+            </div>  
+        </div>                <!-- Aqui vai o seu rodapé -->
+    </div>
+        </div>
+    </div>
+</body>
+</html>

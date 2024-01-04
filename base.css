@@ -33,6 +33,15 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
 }
+div.mycontainer{
+    width: 100;
+    overflow: auto;
+}
+
+div.mycontainer div{
+    width: 33%;
+    float: left;
+  }

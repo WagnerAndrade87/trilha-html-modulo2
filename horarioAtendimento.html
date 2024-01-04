@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template - Utilizar como modelo</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    table thead th{
+      background-color: aquamarine;
+      color: black;
+    }
+    table tbody td{
+      text-align: center;
+    }
+    table tbody tr:nth-child(odd) td{
+      background-color: gray;
+    }
+    table tbody tr:hover td {
+      background-color: cadetblue;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <!-- Aqui vai o seu menu -->
+      <ul>
+        <li><a href="paginaPrincipal.html">Inicio</a></li>
+        <li><a href="sobreClinica.html">Sobre a Clinica</a></li>
+        <li><a href="horarioAtendimento.html">Horário de Atendimento</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="header">
+        <img src="midias/horarioAtendimento.png" width="100%">
+        <!-- Aqui vai o seu header -->
+      </div>
+    
+      <div class="content">
+        <p> 
+          A <strong>Estratégia Saúde da Família (ESF)</strong> é o modelo assistencial
+          da Atenção Básica, que se fundamenta no trabalho de equipe multiprofissional
+          em um território adstrito e desenvolve ações de saúde a partir do conhecimento
+          da realidade local e das necessidades de sua população. O modelo da 
+          <abbr titel="Estratégia Saúde da Família">ESF</abbr> busca favorecer
+          a aproximação da unidade de saúde das <i>famílias</i>; promover o acesso
+          aos serviços, possibilitar o estabelecimento de vínculos entre a equipe
+          e os usuários, a continuidade do cuidado e aumentar, por meio da 
+          corresponsabilização da atenção, a capacidade de resolutividade dos
+          problemas de saúde mais comuns, produzindo maior impacto na situação
+          de saúde local.
+        </p>  
+        <p>
+          Nossa unidade da <abbr title="Estratégia Saúde da Família">ESF</abbr> Dr.
+          Omar Ferreira da Costa, é responsalvel pelo atendimento das famílias pertencentes
+          a <i>Sede do Municipio</i> e <i>área Rural de Camargos e Bom Jardim</i>.
+        </p>
+
+        <p>
+          Os usuários desta unidade conta com atendimento de uma equipe multiproficional,
+          composta por:
+          <ul>
+            <li> Um <strong><a href=#medicoFamilia>Medico da Família</a></strong>
+            <li> Um <strong>Enfermeiro da Família</strong></li>
+            <li> Dois <strong>Auxiliar técnico de enfermagem</strong></li>
+            <li> Cinco <strong>Agentes comunitários de Saúde</strong></li>
+            <li> Dois <strong><a href=#cirugiaoDentista> Cirurgião dentista</a></strong></li>
+            <li> Um <strong><a href=#ginecologista>Médico Ginecologista</a></strong></li>
+            <li> Um <strong><a href=#pediatra>Médico Pediatra</a></strong></li>  
+          </ul>
+        </p>
+
+        <p>
+          Os atendimento podem ser agendados com as <i><abbr title="Agentes comunitárias de Saúde">ACS</abbr></i>
+          ou diretamente na <i><abbr title="Estratégia Saúde da Família">ESF</abbr></i> Dr. Omar.
+        </p>
+
+        <p>
+          Dias e horários de atendimento.     
+          <table id="medicoFamilia" width="400" align="center" cellspacing="0" cellpedding="5">
+            <thead>
+              <tr>
+                <th colspan="2">Médicina da Família</th>
+              </tr>
+              <tr>
+                <th>Dia da Semana</th>
+                <th>Horário</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Segunda Feira</td>
+                <td>07:00 às 16:00</td>
+              </tr>
+              <tr>
+                <td><small><sup><a href="#saudeTrabalhador">2ª e 4ª</a></sup></small>1ª e 3ª Terça Feira</td>
+                <td>07:00 às 16:00</td>
+              </tr>
+              <tr>
+                <td>Quarta Feira</td>
+                <td>07:00 às 16:00</td>
+              </tr>
+              <tr>
+                <td>Quinta Feira</td>
+                <td>07:00 às 16:00</td>
+              </tr>
+              <tr>
+                <td>Sexta Feira</td>
+                <td>07:00 às 16:00</td>              </tr>
+              <tr>
+            </tbody>   
+          </table>
+        </p>
+        <p>
+          <table id="saudeTrabalhador" width="400" align="center" cellspacing="0" cellpedding="5">
+            <thead>
+              <tr>
+                <th colspan="2">Medicina Familia Hórario do Trabalhador</th>
+              </tr>
+              <tr>
+                <th>Dia da Semana</th>
+                <th>Horário</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2ª e 4ª Terça Feira</td>
+                <td>12:00 às 19:00</td>
+              </tr>
+            </tbody>   
+          </table>
+        </p>  
+        <p> 
+          <table id="cirugiaoDentista" width="400" align="center" cellspacing="0" cellpedding="5">
+            <thead>
+              <tr>
+                <th colspan="2">Cirurgião dentista</th>
+              </tr>
+              <tr>
+                <th>Dia da Semana</th>
+                <th>Horário</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Segunda Feira</td>
+                <td>07:00 às 11:00 e 12:00 as 16:00</td>
+              </tr>
+              <tr>
+                <td>Terça Feira</td>
+                <td>07:00 às 11:00 e 12:00 as 16:00</td>
+              </tr>
+              <tr>
+                <td>Quarta Feira</td>
+                <td>07:00 às 11:00 e 12:00 as 16:00</td>
+              </tr>
+              <tr>
+                <td>Quinta Feira</td>
+                <td>07:00 às 11:00 e 12:00 as 16:00</td>
+              </tr>
+              <tr>
+                <td>Sexta Feira</td>
+                <td>07:00 às 11:00 e 12:00 as 16:00</td>
+              </tr>
+              <tr>
+            </tbody>   
+          </table>
+        </p>
+        <p>
+          <table id="ginecologista" width="400" align="center" cellspacing="0" cellpedding="5">
+            <thead>
+              <tr>
+              <th  colspan="2">Atendimento Ginecológico</th>
+              </tr>
+              <tr>
+                <th>Dia da Semana</th>
+                <th>Horário</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2ª e 4ª Terça Feira</td>
+                <td>12:00 às 16:00</td>
+              </tr>
+            </tbody>   
+          </table>
+        </p>
+        <p>
+          <table id="pediatra" width="400" align="center" cellspacing="0" cellpedding="5">
+            <thead>
+              <tr>
+                <th  colspan="2">Atendimento Pediatria</th>
+              </tr>
+              <tr>
+                <th>Dia da Semana</th>
+                <th>Horário</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              <td>1ª e 3ª Terça Feira</td>
+              <td>12:00 às 16:00</td>
+            </tr>
+              </tbody>   
+          </table>
+        </p>  
+        <!-- Aqui vai o seu conteúdo -->
+      </div>
+    
+      <div class="footer">
+        <div class="mycontainer">
+            <div>
+              <center>
+                <font face="arial" size="3px" color="black">
+                  <strong>Prefeitura Municipal de Pedra do Indaiá</strong>
+                  <br>
+                  Av. 1º de Março, 891, Centro
+                  <br>
+                  Telefone: (37) 3344-1112
+                  <a href="https://pedradoindaia.mg.gov.br/" target="_blank">https://pedradoindaia.mg.gov.br</a>
+                  <a href="https://www.instagram.com/prefeituradepedradoindaia/" target="_blank">@prefeituradepedradoindaia</a>
+                </font>
+              </center>
+            </div>
+            <div>
+              <center>
+                <font face="arial" size="3px" color="black">
+                  <strong>Secretária Municipal de Saúde</strong>
+                  <br>
+                  Rua Pará, 30, Centro
+                  <br>
+                  Atendimento: 7h às 16h
+                  <br>
+                  Telefoen: (37) 3344-1144                          
+                </font>
+              </center>
+            </div>
+            <div>
+              <center>
+                <font face="arial" size="3px" color="black">
+                  <strong>ESF Dr. Omar Ferreira Costa</strong>
+                  <br>
+                  Rua Nova, 11, Centro
+                  <br>
+                  Atendimento: 7h às 16h
+                  <br>
+                  Telefoen: (37) 3344-1144                          
+                </font>
+              </center>
+            </div>  
+        </div>                <!-- Aqui vai o seu rodapé -->
+    </div>
+    </div>
+  </div>
+</body>
+</html>
